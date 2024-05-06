@@ -78,7 +78,7 @@ const Todo = () => {
   return (
     <section className="todo-container">
       <div className="todo">
-        <h1 className="header">Todo-App</h1>
+        <h1 data-testid="cypress-title" className="header">Todo-App</h1>
 
         <div>
           <div>
